@@ -22,11 +22,11 @@ charset=UTF-8"
 			<form class="form-signin" method="post" action="LoginServlet">
 				<span id="reauth-email" class="reauth-email"></span> 
 				<input
-					type="email" id="inputEmail" class="form-control"
-					placeholder="Email address" required autofocus> 
+					type="text" id="inputEmail" class="form-control"
+					placeholder="Email address" name="user-id" required autofocus> 
 				<input
 					type="password" id="inputPassword" class="form-control"
-					placeholder="Password" required>
+					placeholder="Password" name="password" required>
 				<button class="btn btn-lg btn-primary btn-block btn-signin"
 					type="submit" value="signin">ログイン</button>
 			</form>
