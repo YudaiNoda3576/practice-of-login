@@ -24,5 +24,9 @@
 	  <p class="album">
  		 <a href="AlbumServlet">Member's Album</a>
   	　</p>
+  	
+  	  <p class="logout">
+ 		 <a href="LogoutServlet">Logout</a>
+  	　</p>
 </body>
 </html>
